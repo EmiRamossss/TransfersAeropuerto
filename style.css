@@ -57,7 +57,7 @@ section#hero{
 }
 
 section#hero h4{
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 /*Fin de Navbar*/
@@ -75,24 +75,18 @@ section#hero h4{
   #nuestros-programas{
     background-color: #fff;
     padding:15px 9%;
-    padding-bottom: 100px;
     width: 100%;
   }
   
-  #nuestros-programas .heading{
+  /*#nuestros-programas .heading{
     text-align: center;
     padding-bottom: 15px;
-    /*color:#6a6a6a;*/
-    /*margin-top:30px;*/
+    /*color:#6a6a6a;
+    /*margin-top:30px;
     font-family: 'Roboto', sans-serif;
     text-shadow: 0 5px 10px rgba(0,0,0,.2);
   }
-
-  #nuestros-programas .text-primary{
-    text-align: center;
-    letter-spacing: 5px;
-    margin-top: 15px;
-  }
+  */
   
   #nuestros-programas .box-container{
     display: grid;
@@ -179,3 +173,4 @@ section#hero h4{
   }
 
 /*Fin de Destinos Turisticos*/
+
