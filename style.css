@@ -44,6 +44,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 section#hero{
@@ -75,6 +76,7 @@ section#hero h4{
   #nuestros-programas{
     background-color: #fff;
     padding:15px 9%;
+    padding-bottom: 100px;
     width: 100%;
   }
   
@@ -174,3 +176,65 @@ section#hero h4{
 
 /*Fin de Destinos Turisticos*/
 
+.sector-1{
+  background: url(img/cataratas3\ \(1\).jpg) rgba(0, 0, 0, 0.4);
+  background-blend-mode: multiply;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*PIE DE PAGINA*//*PIE DE PAGINA*//*PIE DE PAGINA*//*PIE DE PAGINA*/
+
+#pie-pagina{
+  width: 100%;
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#pie-pagina .grupo-1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+
+#pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+#pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+#pie-pagina .grupo-2{
+  background-color: rgb(4, 4, 4);
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+#pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+
+#pie-pagina .bernidesign{
+  text-decoration: none;
+}
+
+@media screen and (max-width:720px){
+  .pie-pagina .grupo-1{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
