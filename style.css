@@ -44,7 +44,7 @@ header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    
 }
 
 section#hero{
@@ -182,7 +182,7 @@ section#hero h4{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  
 }
 
 /*PIE DE PAGINA*//*PIE DE PAGINA*//*PIE DE PAGINA*//*PIE DE PAGINA*/
