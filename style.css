@@ -36,8 +36,8 @@
 }
 
 /*Inicio de Navbar*/
-section{
-    height: 90vh;
+header{
+    height: 100vh;
     width: 100%;
     background: url(img/cataratas3\ \(1\).jpg) rgba(0, 0, 0, 0.4);
     background-blend-mode: multiply;
@@ -46,4 +46,136 @@ section{
     background-size: cover;
 }
 
+section#hero{
+    height: calc(100vh - 120px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+section#hero h4{
+    letter-spacing: 2px;
+}
+
 /*Fin de Navbar*/
+
+/*Inicio de Destinos Turisticos*/
+#nuestros-programas{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    transition: .2s linear;
+  }
+  
+  #nuestros-programas{
+    background-color: #fff;
+    padding:15px 9%;
+    padding-bottom: 100px;
+    width: 100%;
+  }
+  
+  #nuestros-programas .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    /*color:#6a6a6a;*/
+    /*margin-top:30px;*/
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 5px 10px rgba(0,0,0,.2);
+  }
+
+  #nuestros-programas .text-primary{
+    text-align: center;
+    letter-spacing: 5px;
+    margin-top: 15px;
+  }
+  
+  #nuestros-programas .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap:15px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  #nuestros-programas .box-container a{
+    text-decoration: none;
+  }
+  
+  #nuestros-programas .modal-footer a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  #nuestros-programas .box-container .box-1, .box-2, .box-3{
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(https://www.viagensecaminhos.com/wp-content/uploads/2011/08/ciudad-del-este-paraguay.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding:60px 40px;
+    margin: 10px;
+    transition: transform 0.6s ease;
+  }
+  
+  #nuestros-programas .box-container .box-2{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(https://a.travel-assets.com/findyours-php/viewfinder/images/res70/80000/80259-Misiones-Province.jpg);
+  }
+  
+  #nuestros-programas .box-container .box-3{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.3),
+        rgba(0,0,0,0.3)
+    ) 
+    ,url(https://cdn-clubecandeias.s3.sa-east-1.amazonaws.com/uploads/2022/12/cataratas-foz-do-iguacu-parana-clube-candeias-1.jpeg);
+  }
+  
+  #nuestros-programas .box-container .box-1:hover, .box-2:hover, .box-3:hover{
+    transform: scale(1.1);
+  }
+  
+  #nuestros-programas .box-container .box-1 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+  }
+  
+  #nuestros-programas .box-container .box-2 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+  }
+  
+  #nuestros-programas .box-container .box-3 h3{
+    color:#fff;
+    font-size: 22px;
+    padding:10px 0;
+  }
+  
+  #nuestros-programas .box-container .modal-body .list-item{
+    display: flex;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px){
+    .container{
+        padding:20px;
+    }
+  }
+
+/*Fin de Destinos Turisticos*/
