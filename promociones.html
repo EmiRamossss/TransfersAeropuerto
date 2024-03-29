@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfers Aeropuerto</title>
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Link CSS Hover -->
+    <link rel="stylesheet" href="destinos.css">
+
+    <!-- CDN links Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous">
+    </script>
+
+</head>
+
+<body>
+
+    <!-- Star Navbar -->
+    <header class="vh-100 overflow-hidden">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <!-- navbar-expand-lg -->
+            <div class="container">
+
+                <!-- Logo -->
+                <a class="navbar-brand fs-2 text-white" href="index.html">Transfers Aeropuerto</a>
+                <!-- <a class="navbar-brand fs-2 text-white" href="#">Transfers<span class="text-info">Aeropuerto</span></a> -->
+
+                <!-- Toggle Btn --> <!-- Ocultar marco de menu (shadow-none border-0) -->
+                <button class="navbar-toggler shadow-none border-0 fs-4" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Sidebar -->
+                <div class="offcanvas offcanvas-start" stabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
+                style="
+                      background-color: rgba(255, 255, 255, 0.15);
+                      backdrop-filter: blur(10px);">
+
+                    <!-- Sidebar Header -->
+                    <div class="offcanvas-header text-white border-bottom">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Transfers Aeropuerto</h5>
+                        <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+
+                    <!-- Sidebar Body -->
+                    <div class="sidebar-body offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0"> <!-- flex-lg-row -->
+                        <ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="destinos.html">Destinos</a>
+                            </li>
+                            <li class="nav-item mx-2">
+                                <a class="nav-link active" href="promociones.html">Promociones</a>
+                            </li>
+                        </ul>
+                        <!-- English -->
+                        <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center text-align-center gap-3"> <!-- flex-lg-row -->
+                            <a href="#" class="sidebar-body text-white text-decoration-none px-3 py-1 rounded-5" style="background-color: #007bff;">English</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+            <section id="hero">
+                <h1>¡PROMOCIONES!</h1>
+            </section>
+        </main>
+    </header>
+    <!-- End Navbar -->
+
+    <!-- Packages Start -->
+    <div class="container-fluid py-5" id="Promociones">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">PROMOCIONES</h6>
+                <h1>Tenga a su alcance las mejores Promociones</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-1.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0">4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-2.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0">4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="package-item bg-white mb-2">
+                        <img class="img-fluid" src="img/package-3.jpg" alt="">
+                        <div class="p-4">
+                            <a class="h5 text-decoration-none" href="">Discover amazing places of the world with us</a>
+                            <div class="border-top mt-4 pt-4">
+                                <div class="d-flex justify-content-between">
+                                    <h6 class="m-0">4.5 <small>(250)</small></h6>
+                                    <h5 class="m-0">$350</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Packages End -->
+
+    <!-- Star Footer -->
+  <footer id="pie-pagina">
+    <div class="grupo-1">
+      <div class="box">
+        <h2>Viaje Seguro con Transfers Aeropuerto</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis possimus iusto facere accusamus animi.
+          Sint cum earum delectus, molestias doloribus maiores adipisci distinctio magnam quo natus minima. Sunt,
+          aperiam eaque?</p>
+      </div>
+    </div>
+
+    <div class="grupo-2">
+      <small>&copy; Copyright 2024 <b><a href="#" class="bernidesign" target="_blank">rbdesign</a><b></b></small>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+</body>
+
+</html>
