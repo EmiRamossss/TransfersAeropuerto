@@ -29,10 +29,13 @@
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
 }
 
 /*Inicio de Navbar*/
@@ -117,7 +120,7 @@ section#hero h4{
         rgba(0,0,0,0.3),
         rgba(0,0,0,0.3)
     ) 
-    ,url(https://www.viagensecaminhos.com/wp-content/uploads/2011/08/ciudad-del-este-paraguay.jpg);
+    ,url(https://www.civitatis.com/f/argentina/puerto-iguazu/excursion-ciudad-este-589x392.jpg);
     background-size: cover;
     background-position: center center;
     text-align: center;
