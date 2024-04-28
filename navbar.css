@@ -63,6 +63,16 @@
     }
 }
 
+@media (max-width: 991px) {
+    .container .navbar-brand{
+        font-size: 1rem;
+    }
+
+    .login-button{
+        font-size: .7rem;
+    }
+}
+
 .hero-section{
     background: url(./img/fondo-2.jpg) no-repeat center;
     background-size: cover;
