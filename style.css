@@ -151,13 +151,30 @@
 
 /*Fin de Destinos Turisticos*/
 
-.sector-1{
-  background: url(img/fondo.jpg) rgba(0, 0, 0, 0.4);
-  background-blend-mode: multiply;
-  background-position: center;
-  background-repeat: no-repeat;
+.section-hero{
+  background: url(./img/fondo-6.jpg) no-repeat center;
   background-size: cover;
-  background-attachment: fixed;
+  width: 100%;
+  height: 60vh;
+}
+
+.section-hero::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.section-hero .container-section{
+  height: 60vh;
+  z-index: 1;
+  position: relative;
+}
+
+.section-hero h1{
+  font-size: 1.5rem;
 }
 
 /*PIE DE PAGINA*//*PIE DE PAGINA*//*PIE DE PAGINA*//*PIE DE PAGINA*/
