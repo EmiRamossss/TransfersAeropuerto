@@ -80,14 +80,6 @@
     .offcanvas{
         backdrop-filter: blur(5px);
     }
-
-    .offcanvas-body a{
-        color: #fff;
-    }
-
-    .offcanvas-header h4{
-        color: #fff;
-    }
 }
 
 .hero-section{

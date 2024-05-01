@@ -31,16 +31,15 @@
         <div class="container">
             <a class="navbar-brand me-auto flex-column" href="index.html">Transfers Aeropuerto</a>
 
-            <div class="offcanvas bg-transparent offcanvas-end" tabindex="-1" id="offcanvasNavbar"
-                aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas offcanvas-start" data-bs-toggle="offcanvas" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
 
                 <div class="offcanvas-header">
                     <h4 class="offcanvas-title" id="offcanvasNavbarLabel">Transfers Aeropuerto</h4>
-                    <button type="button" class="btn-close btn-close-white shadow-none border-0"
-                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <button type="button" class="btn-close btn-close-white shadow-none border-0" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    <!-- Cerrar menu automaticamente data-bs-dismiss="offcanvas" -->
                 </div>
 
-                <div class="offcanvas-body d-flex">
+                <div class="offcanvas-body sidebar-body d-flex">
                     <ul class="navbar-nav justify-content-center align-items-center flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link nav-link-white mx-lg-2" href="#">Inicio</a>
@@ -308,7 +307,9 @@
     <!-- Link Bootstrap JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+
 </body>
 
 </html>
